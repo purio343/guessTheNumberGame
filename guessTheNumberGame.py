@@ -17,7 +17,6 @@ def guessTheNumber():
             
         numList = list(range(minimum, maximum + 1))
         randomNum = random.randint(minimum, maximum)
-        print(randomNum, "randomNum")
 
         while True:
             print(numList)
